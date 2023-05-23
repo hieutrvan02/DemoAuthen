@@ -19,11 +19,12 @@
                 <div class="form sign-in">
                     <h2>Quên mật khẩu</h2>
                     <label>
-                        <span>Mail</span>
+                        <p class="text-danger">${mess}</p>
+                        <span>Email</span>
                         <input type="email" name="email"/>
                         <label>
                             <span>Mật khẩu mới</span>
-                            <input type="password" name="pass"/>
+                            <input type="password" name="new_pass"/>
                         </label>
                         <label>
                             <span>Nhập lại mật khẩu</span>
